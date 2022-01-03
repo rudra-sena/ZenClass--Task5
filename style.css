@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(189, 245, 255)
+}
+h1,h2{
+    color: rgb(14, 8, 97)
+}
+button{
+    padding: 10px;
+    border: 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 20px;
+}
+button:hover{
+    cursor:pointer;
+
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+.info div{
+    font-size:18px;
+    font-weight:bold;
+}
